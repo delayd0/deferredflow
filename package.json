@@ -1,0 +1,33 @@
+{
+  "name": "deferredflow",
+  "version": "1.0.0",
+  "description": "Deferred execution flow, mainly used to wait for callbacks to complete",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "ava test",
+    "test-coverage": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/delayd0/deferredflow.git"
+  },
+  "keywords": [
+    "deferred",
+    "flow",
+    "async",
+    "callback"
+  ],
+  "engines": {
+    "node": ">=8.11.2"
+  },
+  "author": "delayd0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delayd0/deferredflow/issues"
+  },
+  "homepage": "https://github.com/delayd0/deferredflow#readme",
+  "devDependencies": {
+    "ava": "1.0.0-beta.4",
+    "nyc": "11.8.0"
+  }
+}
