@@ -1,4 +1,4 @@
-# deflow
+# deferredflow
 Deferred execution flow, used mainly to wait for a predefined number of callbacks to complete.
 
 Flow is dictated by promises, hence it plays nice with async/await feature.
